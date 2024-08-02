@@ -1,0 +1,13 @@
+package com.covidApp.Covid_SpringBoot_App;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class CovidSpringBootAppApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(CovidSpringBootAppApplication.class, args);
+	}
+
+}
